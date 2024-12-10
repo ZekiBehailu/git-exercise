@@ -11,11 +11,8 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Link
-              href="/"
-              className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-indigo-400 bg-clip-text text-transparent hover:from-indigo-500 hover:to-indigo-300 transition-all duration-200"
-            >
-              GitLearn
+            <Link href="/" className="text-2xl font-bold text-indigo-600">
+              Git Tutorial Hub
             </Link>
           </div>
 
