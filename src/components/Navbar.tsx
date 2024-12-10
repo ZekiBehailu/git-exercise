@@ -19,6 +19,12 @@ export default function Navbar() {
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-4">
             <Link
+              href="/docs"
+              className="text-gray-700 hover:text-indigo-600 px-3 py-2 rounded-md"
+            >
+              Documentation
+            </Link>
+            <Link
               href="/features"
               className="text-gray-700 hover:text-indigo-600 px-3 py-2 rounded-md"
             >
@@ -29,12 +35,6 @@ export default function Navbar() {
               className="text-gray-700 hover:text-indigo-600 px-3 py-2 rounded-md"
             >
               About
-            </Link>
-            <Link
-              href="/contact"
-              className="text-gray-700 hover:text-indigo-600 px-3 py-2 rounded-md"
-            >
-              Contact
             </Link>
           </div>
 
@@ -76,6 +76,12 @@ export default function Navbar() {
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link
+              href="/docs"
+              className="block text-gray-700 hover:text-indigo-600 px-3 py-2 rounded-md"
+            >
+              Documentation
+            </Link>
+            <Link
               href="/features"
               className="block text-gray-700 hover:text-indigo-600 px-3 py-2 rounded-md"
             >
@@ -86,12 +92,6 @@ export default function Navbar() {
               className="block text-gray-700 hover:text-indigo-600 px-3 py-2 rounded-md"
             >
               About
-            </Link>
-            <Link
-              href="/contact"
-              className="block text-gray-700 hover:text-indigo-600 px-3 py-2 rounded-md"
-            >
-              Contact
             </Link>
           </div>
         </div>
