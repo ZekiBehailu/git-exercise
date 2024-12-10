@@ -12,7 +12,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="text-2xl font-bold text-indigo-600">
-              GitLearn
+              Git Master
             </Link>
           </div>
 
